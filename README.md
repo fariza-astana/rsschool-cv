@@ -1,2 +1,2 @@
 # rsschool-cv
- Init: start Markdown & Git task
+ https://fariza-astana.github.io/rsschool-cv/cv
