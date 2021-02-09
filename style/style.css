@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: Nunito Sans, Arial;
+}
+ body {
+     box-sizing: border-box;
+ }
+
+.container {
+    max-width: 1438px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+.header {
+    background-color: black;
+    font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: beige;
+    padding: 25px;
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation_item {
+    margin-right: 47px; 
+}
+
+.link {
+    color: beige;
+    transition: 2s;
+}
+.footer-link {
+    color: beige;
+}
+
+.home {
+    background-image: url("../images/canyon2.jpg");
+    background-size: cover;
+    padding: 50px;
+    height: 2800px;
+    position: relative;
+}
+.home-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.home-content {
+    margin: 0 auto;
+    display: block;
+}
+
+
+.home-header {
+    display: flex;
+    height: 350px;
+}
+.myphoto {
+    width: 400px;
+    height: 400px;
+}
+.photo-itself {
+    width: 300px;
+    height: 300px;
+    border-style: solid;
+    margin-right: 60px;
+}
+.home-content-text {
+    
+}
+
+.title-name {
+    margin: 0;
+    font-family: Yeseva One, Arial, Helvetica, sans-serif, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+
+}
+
+.subtitle-name {
+    font-family: Yeseva One, Nunito Sans, Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+}
+.coffee {
+    text-align: center;
+    
+}
+.titles {
+    font-family: Yeseva One, Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.cit {
+    font-family: Nunito Sans, Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: rgb(236, 232, 175);
+    text-align: center;
+}
+
+.paragraph-content {
+    font-family: Nunito Sans, Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: rgba(224, 222, 222, 0.7);
+    justify-content: center;
+}
+.home-content-text {
+
+}
+.hr {
+    color: black;
+}
+
+.footer {
+    background-color: black;
+    font-family: Nunito Sans, Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-transform: uppercase;
+    height: 83px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.footer-content {
+    font-family: Nunito Sans, Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin-right: 60px;
+    background-color: white;
+    height:40px;
+}
+.logo-rsschool {
+    margin-bottom: 0px;
+    height: 40px;
+    width: 83px;
+}
