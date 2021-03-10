@@ -55,7 +55,7 @@ body {
     background-image: url("../images/canyon2.jpg");
     background-size: cover;
     padding: 50px;
-    height: 2800px;
+    height: 3000px;
     position: relative;
 }
 .home-overlay {
@@ -137,6 +137,10 @@ body {
     line-height: 36px;
     color: rgb(236, 232, 175);
     text-align: center;
+}
+.code {
+    width: 500px;
+    text-align: start;
 }
 
 .paragraph-content {
